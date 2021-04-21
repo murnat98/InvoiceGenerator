@@ -1,0 +1,170 @@
+# #-#-#-#-#  messages.pot (PACKAGE VERSION)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# #-#-#-#-#  messages.po (0.2.0)  #-#-#-#-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 15:04+0100\n"
+"PO-Revision-Date: 2015-06-22 20:04+0100\n"
+"Last-Translator: rbas <rbas@rbas.cz>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: api.py:47
+#, python-format
+msgid "Vat in: %s"
+msgstr "Vat in: %s"
+
+#: api.py:50
+#, python-format
+msgid "IR: %s"
+msgstr "IR: %s"
+
+#: pdf.py:51
+#, python-format
+msgid "Page %(page_number)d of %(page_count)d"
+msgstr "%(page_number)d-րդ էջ %(page_count)d-ից"
+
+#: pdf.py:129
+#, python-format
+msgid "Invoice num.: %s"
+msgstr "Պատվեր #%s"
+
+#: pdf.py:154
+msgid "Customer"
+msgstr "Գնորդ"
+
+#: pdf.py:174
+msgid "Provider"
+msgstr "Մատակարարը"
+
+#: pdf.py:199
+msgid "Payment information"
+msgstr "Վճարման ինֆորմացիա"
+
+#: pdf.py:204
+msgid "Account n."
+msgstr "Account n."
+
+#: pdf.py:205
+msgid "Variable symbol"
+msgstr "Variable symbol"
+
+#: pdf.py:209
+msgid "Specific symbol"
+msgstr "Specific symbol"
+
+#: pdf.py:221
+msgid "List of items"
+msgstr "Ցուցակ"
+
+#: pdf.py:223
+msgid "Description"
+msgstr "Ապրանք"
+
+#: pdf.py:227 pdf.py:240
+msgid "Units"
+msgstr "Քանակը"
+
+#: pdf.py:229 pdf.py:242
+msgid "Price per one"
+msgstr "Գինը"
+
+#: pdf.py:231 pdf.py:244
+msgid "Total price"
+msgstr "Ընդհանուր գինը"
+
+#: pdf.py:233 pdf.py:335
+msgid "Tax"
+msgstr "Tax"
+
+#: pdf.py:235
+msgid "Total price with tax"
+msgstr "Ընդհանուր գինը"
+
+#: pdf.py:320
+msgid "Rounding"
+msgstr "Rounding"
+
+#: pdf.py:331
+msgid "Total"
+msgstr "Ընդհանուրը"
+
+#: pdf.py:334
+msgid "Breakdown VAT"
+msgstr "Breakdown VAT"
+
+#: pdf.py:335
+msgid "VAT rate"
+msgstr "Breakdown VAT"
+
+#: pdf.py:335
+msgid "Without VAT"
+msgstr "Without VAT"
+
+#: pdf.py:335
+msgid "With VAT"
+msgstr "With VAT"
+
+#: pdf.py:363
+msgid "Total with tax"
+msgstr "Total with tax"
+
+#: pdf.py:385
+msgid "Creator"
+msgstr "Հետադարձ կապ"
+
+#: InvoiceGenerator/pdf.py:402
+msgid "Date of exposure taxable invoice"
+msgstr "Date of exposure taxable invoice"
+
+msgid "Taxable invoice num.: %s"
+msgstr "Taxable invoice num.: %s"
+
+#: pdf.py:404 pdf.py:465
+msgid "Due date"
+msgstr "Ամսաթիվ"
+
+#: pdf.py:406
+msgid "Taxable date"
+msgstr "Taxable date"
+
+#: pdf.py:410 pdf.py:468
+msgid "Paytype"
+msgstr "Paytype"
+
+#: pdf.py:443
+#, python-format
+msgid "Correcting document: %s"
+msgstr "Correcting document: %s"
+
+#: pdf.py:449
+#, python-format
+msgid "Correction document for invoice: %s"
+msgstr "Correction document for invoice: %s"
+
+#: pdf.py:450
+#, python-format
+msgid "Reason to correction: %s"
+msgstr "Reason to correction: %s"
+
+#: pdf.py:463
+msgid "Date of exposure"
+msgstr "Ամսաթիվ"
+
+msgid "Document num.: %s"
+msgstr "Document num.: %s"
