@@ -102,7 +102,7 @@ msgstr "Rounding"
 
 #: pdf.py:331
 msgid "Total"
-msgstr "Ընդհանուրը"
+msgstr "Ընդհամենը"
 
 #: pdf.py:334
 msgid "Breakdown VAT"
